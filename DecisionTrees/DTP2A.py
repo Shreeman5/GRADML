@@ -263,7 +263,7 @@ def training_part():
     print()
 
     training_trees = []
-    train = pd.read_csv('train.csv', header=None)
+    train = pd.read_csv('train1.csv', header=None)
 
     df = pd.DataFrame({'buying': train.loc[:, 0],
                        'maint': train.loc[:, 1],
@@ -311,7 +311,7 @@ def testing_part(trees):
     print('Testing Starts Here')
     print()
 
-    test = pd.read_csv('test.csv', header=None)
+    test = pd.read_csv('test1.csv', header=None)
 
     depth = 6  # specify depth of dictionary here
 
