@@ -65,10 +65,8 @@ def training_part():
 
         if norm(difference_vector) < 0.000001:
             print(norm(difference_vector))
-            print('yESSSSSSSSSSSSSSSSS')
         else:
             print(norm(difference_vector))
-            print('NOOOOOOOOOOOOOOOOOOOOOO')
 
     print(cost_function)
     print(t_val)
